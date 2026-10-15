@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Amira ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Confetti -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Music -->
+    <audio id="music" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Fireworks Sound -->
+    <audio id="fireSound">
+        <source src="sounds/fireworks.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Hearts -->
+    <div id="hearts"></div>
+
+    <!-- Welcome -->
+    <section id="welcome" class="screen active">
+
+        <div class="glass">
+
+            <div class="gift">🎁</div>
+
+            <h1>A Special Gift</h1>
+
+            <p>Made  For you eng Amira best female engineer</p>
+
+            <h2>eng Amira ❤️</h2>
+
+            <button id="startBtn">
+                Open Your Gift
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Countdown -->
+    <section id="countdown" class="screen">
+
+        <div id="count">3</div>
+
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="screen">
+
+        <div class="photo-card">
+
+            <img id="photo" src="img/2.jpg" alt="photo">
+
+            <div id="photoCounter">
+                1 / 4
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Envelope -->
+    <section id="envelopeSection" class="screen">
+
+        <h2 class="hint">
+            💌 Tap the Envelope
+        </h2>
+
+        <div id="envelope">
+
+            <!-- Back -->
+            <div class="envelope-back"></div>
+
+            <!-- Letter will be created by JS -->
+
+            <!-- Front -->
+            <div class="envelope-front"></div>
+
+            <!-- Flap -->
+            <div class="flap"></div>
+
+        </div>
+
+    </section>
+
+    <!-- Final -->
+    <section id="final" class="screen">
+
+        <h1>Happy Birthday</h1>
+
+        <h2>Amira ❤️</h2>
+
+        <p>
+            Made  for eng Amira,
+            with all respect and affection and gratitude.
+
+            Wishing you endless happiness,
+            success and beautiful memories.
+        </p>
+
+        <button id="againBtn">
+            Watch Again
+        </button>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
